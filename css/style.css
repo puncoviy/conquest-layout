@@ -29,8 +29,8 @@ body {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 32px;
+    line-height: 43px;
     color: #1B1A17;
     margin-bottom: 39px;
 }
@@ -141,6 +141,11 @@ body {
     top: 36px;
 }
 
+.promo__title {
+    font-size: 30px;
+    line-height: 40px;
+}
+
 .promo__text {
     font-weight: 300;
     font-size: 14px;
@@ -212,4 +217,89 @@ body {
 }
 
 /* POPULAR */
+
+.popular {
+    margin-top: 75px;
+    margin-bottom: 85px;
+}
+
+.popular__title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.popular__link {
+    display: block;
+    max-width: 110px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #444240;
+    border-bottom: 1px solid #C4C0B6;
+    padding-bottom: 10px;
+    margin-left: auto;
+}
+.popular__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.popular__item {
+    padding: 40px 26px;
+    max-width: 370px;
+}
+.popular__item-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+    margin-bottom: 10px;
+}
+.popular__item-price {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+}
+.popular__item-img-box {
+    background: 
+      linear-gradient(#fff 0 0) padding-box, /*this is your grey background*/
+      linear-gradient(to right, transparent, #E2D0C4) border-box;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+.popular__item-link {
+    display: block;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+    padding-left: 88px;
+    text-decoration: none;
+    position: relative;
+}
+
+.popular__item-link::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #8B8371;
+    top: calc(50% - 1px);
+    left: 38px;
+    cursor: default;
+}
+
+/* FEATURES */
 
