@@ -26,7 +26,7 @@ body {
 }
 
 .title {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -122,7 +122,7 @@ body {
 
 .promo__collection {
     position: relative;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
@@ -161,7 +161,7 @@ body {
 
 .promo__item {
     position: relative;
-    font-family: 'Prata';
+    font-family: 'Prata', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -252,7 +252,7 @@ body {
     background-color: #FDFDFB;
 }
 .popular__item-title {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -262,7 +262,7 @@ body {
     margin-bottom: 10px;
 }
 .popular__item-price {
-    font-family: 'Prata';
+    font-family: 'Prata', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -287,7 +287,7 @@ body {
 
 .popular__item-link {
     display: block;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -334,7 +334,7 @@ body {
     margin-top: 20px;
     margin-right: 84px;
     align-self: flex-end;
-    font-family: 'Prata';
+    font-family: 'Prata', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
