@@ -15,7 +15,42 @@ body {
     margin-right: auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1B1A17;
+    margin-bottom: 39px;
+}
+
+.btn {
+    padding: 26px 38px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 /* HEADER */
+
+.header {
+    background: #FDFDFB;
+}
 
 .header__inner {
     display: flex;
@@ -66,3 +101,115 @@ body {
     top: -5px;
     right: -8px;
 }
+
+/* PROMO */
+
+.promo {
+    background: #FDFDFB;
+}
+
+.promo__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo__info {
+    padding-top: 236px;
+    padding-left: 87px;
+    position: relative;
+    z-index: 1;
+}
+
+.promo__collection {
+    position: relative;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1B1A17;
+    margin-bottom: 16px;
+}
+
+.promo__collection::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #8B8371;
+    left: -65px;
+    top: 36px;
+}
+
+.promo__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(27, 26, 23, 0.82);
+    margin-bottom: 40px;
+    max-width: 210px;
+}
+
+.promo__btn {
+    background: #444240;
+}
+
+.promo__item {
+    position: relative;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1B1A17;
+    flex-basis: 664px;
+    text-align: center;
+    z-index: 0;
+    margin-right: 20px;
+}
+
+.promo__item::before {
+    position: absolute;
+    content: url(../img/promo-decor.svg);
+    left: -114px;
+    top: 7px;
+    z-index: -1;
+}
+
+.promo__item-price {
+    position: absolute;
+    top: 134px;
+}
+
+.promo__item-price::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #8B8371;
+    top: calc(50% - 1px);
+    right: -70px;
+}
+
+.promo__item-img {
+    max-height: 780px;
+}
+
+.promo__item-fact {
+    position: absolute;
+    right: 0;
+    bottom: 113px;
+}
+
+.promo__item-fact::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #8B8371;
+    top: calc(50% - 1px);
+    left: -70px;
+}
+
+/* POPULAR */
+
