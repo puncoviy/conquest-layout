@@ -433,3 +433,48 @@ body {
     max-height: 460px;
     object-fit: cover;
 }
+
+/* FOOTER */
+
+.footer {
+    background: #444240;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer__main-info-link {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer__main-info-img {
+    margin-bottom: 22px;
+}
+
+.footer__item {
+    margin-bottom: 15px;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
