@@ -244,10 +244,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 25px;
 }
 .popular__item {
     padding: 40px 26px;
     max-width: 370px;
+    background-color: #FDFDFB;
 }
 .popular__item-title {
     font-family: 'Playfair Display';
@@ -275,7 +277,13 @@ body {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 20px;
-  }
+}
+
+.popular__item-img {
+    max-width: 313px;
+    filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
+    object-fit: contain;
+}
 
 .popular__item-link {
     display: block;
