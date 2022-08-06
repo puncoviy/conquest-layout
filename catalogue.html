@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conquest | Швейцарские часы</title>
+    <title>Conquest | Каталог</title>
     <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -57,101 +58,48 @@
     </header>
 
     <main>
-        <section class="promo">
+        <div class="breadcrumbs">
             <div class="container">
-                <div class="promo__inner">
-                    <div class="promo__info">
-                        <h1 class="visually-hidden">Швейцарские часы в Москве</h1>
-                        <span class="promo__collection">Весна/Лето 2019</span>
-                        <h3 class="promo__title title">Коллекция</h3>
-                        <p class="promo__text">Швейцарские часы в наличии в Москве<br>и с доставкой по всему миру</p>
-                        <a class="promo__btn btn" href="#">Смотреть каталог</a>
-                    </div>
-                    <div class="promo__item">
-                        <p class="promo__item-price">22 000 ₽</p>
-                        <img class="promo__item-img" src="./img/promo-1.png" alt="Rado">
-                        <p class="promo__item-fact">20 мм диаметр</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-        <section class="popular">
-            <div class="container">
-                <h2 class="popular__title title">Популярные модели</h2>
-                <a class="popular__link" href="#">Смотреть все</a>
-                <ul class="popular__list">
-                    <li class="popular__item">
-                        <h3 class="popular__item-title">RADO</h3>
-                        <p class="popular__item-price">65 300 ₽</p>
-                        <div class="popular__item-img-box">
-                            <img class="popular__item-img" src="./img/popular1.png" alt="watch">
-                        </div>
-                        <a href="" class="popular__item-link">Подробнее</a>
+                <ul class="breadcrumbs__list">
+                    <li class="breacrumbs__item">
+                        <a class="breacrumbs__item-link" href="#">Главная</a>
                     </li>
-                    <li class="popular__item">
-                        <h3 class="popular__item-title">BVLGARI</h3>
-                        <p class="popular__item-price">81 700 ₽</p>
-                        <div class="popular__item-img-box">
-                            <img class="popular__item-img" src="./img/popular2.png" alt="watch">
-                        </div>
-                        <a href="" class="popular__item-link">Подробнее</a>
+                    <li class="breacrumbs__item">
+                        <a class="breacrumbs__item-link" href="#">Каталог</a>
                     </li>
-                    <li class="popular__item">
-                        <h3 class="popular__item-title">BVLGARI</h3>
-                        <p class="popular__item-price">72 700 ₽</p>
-                        <div class="popular__item-img-box">
-                            <img class="popular__item-img" src="./img/popular3.png" alt="watch">
-                        </div>
-                        <a href="" class="popular__item-link">Подробнее</a>
+                    <li class="breacrumbs__item">
+                        <a class="breacrumbs__item-link" href="#">Мужские часы</a>
                     </li>
                 </ul>
             </div>
-        </section>
-    
-        <section class="features">
+        </div>
+
+        <div class="catalogue__top">
             <div class="container">
-                <div class="features__inner">
-                    <h2 class="visually-hidden">За что выбирают Conquest</h2>
-                    <div class="features__gallery">
-                        <img class="features__gallery-img" src="./img/features01.jpg" alt="swiss made">
-                        <span class="features__gallery-controls">01</span>
-                    </div>
-                    <div class="features__info">
-                        <h3 class="features__info-title title">Подлинное качество</h3>
-                        <p class="features__info-text">Все часы производятся в Швейцарии и имеют сертификаты качества. Настоящие швейцарские часы — это предмет гордости и престижа.</p>
-                        <a class="features__info-btn btn" href="#">СМОТРЕТЬ КАТАЛОГ</a>
-                    </div>
+                <h2 class="catalogue__title"></h2>
+                <div class="catalogue__sorting">
+                    <label for="sorting">Сортировать по:</label>
+                    <select name="sorting" id="sorting">
+                        <option value="popular">популярности</option>
+                        <option value="expensive">дороже</option>
+                        <option value="cheap">дешевле</option>
+                        <option value="recommended">рекомендуем</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <section class="catalogue">
+            <div class="container">
+                <div class="catalogue__inner">
+                    <section class="filter"></section>
+                    <ul class="catalogue__list">
+                        <li class="catalogue__item"></li>
+                    </ul>
                 </div>
             </div>
         </section>
-    
-        <section class="news">
-            <div class="container">
-                <div class="news__inner">
-                    <div class="news__info">
-                        <h2 class="news__info-title title">Следите за нашими новостями</h2>
-                        <p class="news__info-text">Подписывайтесь на <strong>@conquest_watch</strong> в соцсетях и узнавайте о новинках и акциях первыми.</p>
-                        <div class="news__info-social-box">
-                            <a class="news__info-social-link" href="#">
-                                <img class="news__info-social-img" src="./img/inst.svg" alt="instagram">
-                            </a>
-                            <a class="news__info-social-link" href="#">
-                                <img class="news__info-social-img" src="./img/fb.svg" alt="facebook">
-                            </a>
-                            <a class="news__info-social-link" href="#">
-                                <img class="news__info-social-img" src="./img/twit.svg" alt="twitter">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="news__gallery">
-                        <img class="news__gallery-img" src="./img/news1-1.jpg" alt="news">
-                        <img class="news__gallery-img" src="./img/news2-1.jpg" alt="news">
-                        <img class="news__gallery-img" src="./img/news3-1.jpg" alt="news">
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </main>
 
     <footer class="footer">
@@ -218,5 +166,6 @@
             </div>
         </div>
     </footer>
+    
 </body>
 </html>
