@@ -73,6 +73,11 @@ body {
 .header__menu-link {
     color: #555248;
     text-decoration: none;
+    transition: color .5s;
+}
+
+.header__menu-link:hover {
+    color: #A69876;
 }
 
 .header__btn-box {
