@@ -4,6 +4,7 @@ const burgerIcon = document.querySelector('.burger-menu');
 const menuList = document.querySelector('.header__menu-list');
 const menuLinks = document.querySelectorAll('.header__menu-link');
 const blackout = document.querySelector('.blackout');
+const header = document.querySelector('header');
 
 // menu-Script
 burgerBtn.addEventListener('click', function(){
@@ -27,4 +28,12 @@ burgerBtn.addEventListener('click', function(){
             blackout.classList.remove('active');
         }
     })
+})
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) {
+        header.classList.add('scroll');
+    } else if (window.pageYOffset == 0) {
+        header.classList.remove('scroll');
+    }
 })
